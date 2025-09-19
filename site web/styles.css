@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #172815;
+}
+
+header {
+  /*bandeau en haut de page*/
+  text-align: center;
+  padding: 10px;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  font-size: large;
+  text-shadow: #000000 4px 4px 8px;
+  text-decoration: underline;
+  background: rgb(109, 119, 90);
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.logo_header {
+  width: 40px;
+  height: auto;
+  filter: drop-shadow(4px 4px 8px black);
+}
+
+.question {
+  /*pour mettre les titres des cases dans une police plus grande*/
+  font-weight: bold;
+  font-size: 32px;
+}
+
+/*dans toutes les section j'ai mis une couleur de texte, une bordure sympa et j'ai ajusté la taille de la boite et son fond d'écran*/
+
+.presentation-egg {
+  color: #e7e6f7;
+  border: #89937c 2px solid;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: #280004 4px 4px 8px;
+  font-family: "oswald", sans-serif;
+  font-size: 20px;
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-image: url("images/egg.jpeg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.premiers-pas-egg-au-present {
+  display: flex;
+  justify-content: center;
+}
+
+.premiers-pas {
+  color: #e7e6f7;
+  border: #89937c 2px solid;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: #280004 4px 4px 8px;
+  font-family: "oswald", sans-serif;
+  font-size: 20px;
+  width: 45%;
+  margin-right: 1%;
+  background-image: url("images/egg.jpeg");
+  background-size: 200%;
+  background-position: 0% 35%;
+  background-repeat: no-repeat;
+}
+
+.egg-au-present {
+  color: #e7e6f7;
+  border: #89937c 2px solid;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: #280004 4px 4px 8px;
+  font-family: "oswald", sans-serif;
+  font-size: 20px;
+  width: 45%;
+  margin-left: 1%;
+  background-image: url("images/egg.jpeg");
+  background-size: 200%;
+  background-position: 100% 35%;
+  background-repeat: no-repeat;
+}
+
+.les-spins-on {
+  background-color: #172815;
+  color: #e7e6f7;
+  border: #89937c 2px solid;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: #280004 4px 4px 8px;
+  font-family: "oswald", sans-serif;
+  font-size: 20px;
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-image: url("images/egg.jpeg");
+  background-size: 110%;
+  background-position: 50% 58%;
+  background-repeat: no-repeat;
+}
+
+.les-originaux {
+  background-color: #172815;
+  color: #e7e6f7;
+  border: #89937c 2px solid;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: #280004 4px 4px 8px;
+  font-family: "oswald", sans-serif;
+  font-size: 20px;
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-image: url("images/egg.jpeg");
+  background-size: 110%;
+  background-position: 50% 90%;
+  background-repeat: no-repeat;
+}
+
+.ou-la-trouver {
+  background-color: #172815;
+  color: #e7e6f7;
+  border: #89937c 2px solid;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: #280004 4px 4px 8px;
+  font-family: "oswald", sans-serif;
+  font-size: 20px;
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-image: url("images/egg.jpeg");
+  background-size: 110%;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+/*une seule class pour les logos pour qu'ils soient tous les memes facilement modifiable*/
+
+.logos {
+  width: 50px;
+  height: auto;
+  display: block;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  filter: drop-shadow(4px 4px 8px black);
+}
+
+/*centrer les logos dans leur section*/
+
+.liens {
+  display: flex;
+  justify-content: center;
+}
+
+/*un petit effet sympa au survol des logos*/
+
+.logos:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
